@@ -1,0 +1,365 @@
+.contenedor{
+    width: 24.3rem;
+    height: 52.7rem;
+    background-color: rgb(243, 240, 235);
+    display: flex;
+    position: relative;
+    
+}
+/*-------------------------------------------------  */
+
+/*--------Menu, tres barritas y el señor de la foto------------------------------------  */
+
+.menu{
+    width: 21rem;
+    height: 1.9rem;   
+    position: absolute;
+    left: 1.6rem;
+    top: 2.9rem;
+    
+
+}
+.menu1{
+    position: absolute;
+    left: 1.2rem;
+    top: 3.7rem;
+    cursor: pointer;
+
+    
+}
+.persona{
+    position: absolute;
+    left: 19rem;
+}
+/*-------------------------------------------------  */
+
+/*--------Pregunta, de donde quieres viajar------------------------------------  */
+
+.you{
+    font-size: 2rem;
+    position: absolute;
+    top: 7rem;
+    left: 1.6rem;
+}
+/*-------------------------------------------------  */
+
+
+/*--------Caja de busqueda y icono------------------------------------  */
+
+.busqueda{
+    width: 16rem;
+    height: 2.6rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 10rem;
+    left: 1.6rem;
+    box-shadow: 5px 4px 10px rgba(37, 10, 10, 0.45);
+    border-radius: 10px;
+    
+}
+.busqueda1{
+    font-size: 1rem;
+    color: rgb(136, 145, 142);
+    position: absolute;
+    top: 0.5rem; 
+    left: 1rem;
+
+}
+.busqueda2{
+    width: 2.7rem;
+    height: 2.6rem;
+    background-color: #FF7A1A;
+    position: absolute;
+    top: 10rem;
+    left: 19rem;
+    border-radius: 5px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.busqueda3{
+    position: absolute;
+    left: 24%;
+    top: 24%;
+}
+
+/*-------------------------------------------------  */
+
+/*--------Los cuatro cuadros------------------------------------  */
+
+.cuadro{
+    cursor: pointer;
+
+    width: 4rem;
+    height: 4rem;
+    background: #fd7515;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+    border-radius: 5px;
+    box-shadow: 5px 4px 10px rgba(241, 167, 5, 0.5);
+
+
+}
+.avion{
+    width: 20em;
+    height: 20rem;
+    position: absolute;
+    top: 16%;
+    left: 25%;
+}
+.avion1{
+
+    font-size: 13px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 68%;
+    left: 30%;
+
+    
+}
+/*-------------------------------------------------*/
+.cuadro1{
+    cursor: pointer;
+
+    width: 4rem;
+    height: 4rem;
+    background: #9e86e0;
+    position: absolute;
+    top: 16rem;
+    left: 7.4rem;
+    border-radius: 5px;
+    box-shadow: 5px 4px 10px rgba(237, 179, 255, 0.5);
+
+
+}
+.Hotel{
+    width: 20em;
+    height: 20rem;
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+.Hotel1{
+    font-size: 13px;
+
+    color: #FFFFFF;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+
+    
+}
+
+/*-------------------------------------------------*/
+
+.cuadro2{
+    cursor: pointer;
+
+    width: 4rem;
+    height: 4rem;
+    background: #ee8b44;
+    position: absolute;
+    top: 16rem;
+    left: 13rem;
+    border-radius: 5px;
+    box-shadow: 5px 4px 10px rgba(241, 167, 5, 0.5);
+    
+
+
+}
+.food{
+    width: 20em;
+    height: 20rem;
+    position: absolute;
+    top: 0.3rem;
+    left: 25%;
+}
+.food1{
+    font-size: 13px;
+
+    color: #FFFFFF;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+
+    
+}
+/*-------------------------------------------------*/
+.cuadro3{
+    cursor: pointer;
+
+    width: 4rem;
+    height: 4rem;
+    background: #8c84f7;
+    position: absolute;
+    top: 16rem;
+    left: 18.3rem;
+    border-radius: 5px;
+    box-shadow: 5px 4px 10px rgba(179, 184, 255, 0.5);
+
+
+}
+.event{
+    width: 20em;
+    height: 20rem;
+    position: absolute;
+    top: 0.3rem;
+    left: 22%;
+}
+.event1{
+    font-size: 13px;
+
+    color: #FFFFFF;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+
+    
+}
+/*-------------------------------------------------*/
+
+
+/*--------nombre de los 4 cuadros------------------------------------  */
+.titulo{
+    width: 4rem;
+    height: 1rem;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 21rem;
+    left: 2rem;
+    border-radius: 5px;
+    
+
+}
+.titulo1{
+    width: 4rem;
+    height: 1rem;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 21rem;
+    left: 7.4rem;
+    border-radius: 5px;
+
+}
+.titulo2{
+    width: 4rem;
+    height: 1rem;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 21rem;
+    left: 13rem;
+    border-radius: 5px;
+
+}
+.titulo3{
+    width: 4rem;
+    height: 1rem;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 21rem;
+    left: 18.3rem;
+    border-radius: 5px;
+}
+/*-------------------------------------------------*/
+
+
+/*--------Imagen 1 ------------------------------------  */
+.montaña{
+    cursor: pointer;
+
+
+    position: absolute;
+    top: 23.6rem;
+    left: 0.5rem;
+
+}
+.montaña1{
+    cursor: pointer;
+
+
+    font-size: 2rem;
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 43.6rem;
+    left: 2rem;
+}
+.ubicacion1{
+    cursor: pointer;
+
+    color: #FFFFFF;
+    position: absolute;
+    left: 3.9rem;
+    top: 46.1rem;
+
+}
+/*-------------------------------------------------*/
+
+
+/*-------- Imagen 2 ------------------------------------  */
+.globo{
+    cursor: pointer;
+
+    width: 5rem;
+    position: absolute;
+    left: 352px;
+    top: 23.6rem;
+}
+.globo1{
+    cursor: pointer;
+
+    font-size: 2rem;
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 43.6rem;
+    left: 22.8rem;
+
+}
+.ubicacion3{
+    cursor: pointer;
+
+    color: #FFFFFF;
+    position: absolute;
+    left: 24rem;
+    top: 46.1rem;
+
+}
+/*-------------------------------------------------*/
+
+/*---------------------- Menu de abajo --------------------*/
+.home{
+    
+    position: absolute;
+    top: 50.3rem;
+    left: 8.33%;
+    cursor: pointer;
+
+
+}
+.person{
+    
+    position: absolute;
+    top: 50.3rem;
+    left: 30.67%;
+    cursor: pointer;
+}
+.chat{
+    position: absolute;
+    top: 50.3rem;
+    left: 56.67%;
+    cursor: pointer;
+
+}
+.book{
+    position: absolute;
+    top: 50.3rem;
+    left: 80.67%;
+    cursor: pointer;
+
+
+}
+
+/*-------------------------------------------------*/
+
+
+/*---------------------- Menu de abajo --------------------*/
